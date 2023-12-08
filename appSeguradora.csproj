@@ -54,7 +54,9 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -100,11 +102,11 @@
     <Compile Include="FrmCadastroModelo.Designer.cs">
       <DependentUpon>FrmCadastroModelo.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmDadosVeiculo.cs">
+    <Compile Include="FrmApolice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmDadosVeiculo.Designer.cs">
-      <DependentUpon>FrmDadosVeiculo.cs</DependentUpon>
+    <Compile Include="FrmApolice.Designer.cs">
+      <DependentUpon>FrmApolice.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmFipe.cs">
       <SubType>Form</SubType>
@@ -176,8 +178,8 @@
     <EmbeddedResource Include="FrmCadastroModelo.resx">
       <DependentUpon>FrmCadastroModelo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmDadosVeiculo.resx">
-      <DependentUpon>FrmDadosVeiculo.cs</DependentUpon>
+    <EmbeddedResource Include="FrmApolice.resx">
+      <DependentUpon>FrmApolice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmFipe.resx">
       <DependentUpon>FrmFipe.cs</DependentUpon>

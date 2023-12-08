@@ -31,7 +31,7 @@ namespace appSeguradora
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FrmDadosVeiculo frmDadosVeiculo = new FrmDadosVeiculo();
+            FrmApolice frmDadosVeiculo = new FrmApolice();
             frmDadosVeiculo.ShowDialog();
             this.Hide();
         }

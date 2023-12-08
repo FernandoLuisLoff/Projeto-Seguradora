@@ -119,14 +119,14 @@
             this.viewFipeBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.viewFipeBindingNavigator.Name = "viewFipeBindingNavigator";
             this.viewFipeBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.viewFipeBindingNavigator.Size = new System.Drawing.Size(999, 28);
+            this.viewFipeBindingNavigator.Size = new System.Drawing.Size(749, 27);
             this.viewFipeBindingNavigator.TabIndex = 0;
             this.viewFipeBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorCountItem
             // 
             this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(48, 25);
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 24);
             this.bindingNavigatorCountItem.Text = "de {0}";
             this.bindingNavigatorCountItem.ToolTipText = "Número total de itens";
             // 
@@ -136,8 +136,9 @@
             this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
             this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(29, 25);
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorDeleteItem.Text = "Excluir";
+            this.bindingNavigatorDeleteItem.Click += new System.EventHandler(this.bindingNavigatorDeleteItem_Click);
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -145,7 +146,7 @@
             this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
             this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
             this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(29, 25);
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveFirstItem.Text = "Mover primeiro";
             // 
             // bindingNavigatorMovePreviousItem
@@ -154,13 +155,13 @@
             this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
             this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
             this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(29, 25);
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMovePreviousItem.Text = "Mover anterior";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 28);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -168,14 +169,14 @@
             this.bindingNavigatorPositionItem.AutoSize = false;
             this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
-            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(65, 27);
+            this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Posição atual";
             // 
             // bindingNavigatorSeparator1
             // 
             this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 28);
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // bindingNavigatorMoveNextItem
             // 
@@ -183,7 +184,7 @@
             this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
             this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
             this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(29, 25);
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveNextItem.Text = "Mover próximo";
             // 
             // bindingNavigatorMoveLastItem
@@ -192,13 +193,13 @@
             this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
             this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
             this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(29, 25);
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(24, 24);
             this.bindingNavigatorMoveLastItem.Text = "Mover último";
             // 
             // bindingNavigatorSeparator2
             // 
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 28);
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // btnNovaFipe
             // 
@@ -206,7 +207,7 @@
             this.btnNovaFipe.Image = ((System.Drawing.Image)(resources.GetObject("btnNovaFipe.Image")));
             this.btnNovaFipe.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNovaFipe.Name = "btnNovaFipe";
-            this.btnNovaFipe.Size = new System.Drawing.Size(29, 25);
+            this.btnNovaFipe.Size = new System.Drawing.Size(24, 24);
             this.btnNovaFipe.Text = "toolStripButton1";
             this.btnNovaFipe.Click += new System.EventHandler(this.btnNovaFipe_Click);
             // 
@@ -215,7 +216,7 @@
             this.viewFipeBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.viewFipeBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("viewFipeBindingNavigatorSaveItem.Image")));
             this.viewFipeBindingNavigatorSaveItem.Name = "viewFipeBindingNavigatorSaveItem";
-            this.viewFipeBindingNavigatorSaveItem.Size = new System.Drawing.Size(29, 25);
+            this.viewFipeBindingNavigatorSaveItem.Size = new System.Drawing.Size(24, 24);
             this.viewFipeBindingNavigatorSaveItem.Text = "Salvar Dados";
             // 
             // txtBusca
@@ -223,7 +224,7 @@
             this.txtBusca.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.txtBusca.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtBusca.Name = "txtBusca";
-            this.txtBusca.Size = new System.Drawing.Size(199, 28);
+            this.txtBusca.Size = new System.Drawing.Size(150, 27);
             this.txtBusca.Click += new System.EventHandler(this.txtBusca_Click);
             this.txtBusca.TextChanged += new System.EventHandler(this.toolStripTextBox1_TextChanged);
             // 
@@ -235,14 +236,14 @@
             "Marcas",
             "Modelos"});
             this.cbbBusca.Name = "cbbBusca";
-            this.cbbBusca.Size = new System.Drawing.Size(99, 28);
+            this.cbbBusca.Size = new System.Drawing.Size(75, 27);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.toolStripLabel1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripLabel1.Image")));
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(20, 25);
+            this.toolStripLabel1.Size = new System.Drawing.Size(20, 24);
             // 
             // viewFipeDataGridView
             // 
@@ -257,12 +258,11 @@
             this.dataGridViewTextBoxColumn4,
             this.dataGridViewTextBoxColumn5});
             this.viewFipeDataGridView.DataSource = this.viewFipeBindingSource;
-            this.viewFipeDataGridView.Location = new System.Drawing.Point(16, 34);
-            this.viewFipeDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewFipeDataGridView.Location = new System.Drawing.Point(12, 28);
             this.viewFipeDataGridView.Name = "viewFipeDataGridView";
             this.viewFipeDataGridView.RowHeadersWidth = 51;
             this.viewFipeDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.viewFipeDataGridView.Size = new System.Drawing.Size(967, 492);
+            this.viewFipeDataGridView.Size = new System.Drawing.Size(725, 400);
             this.viewFipeDataGridView.TabIndex = 1;
             this.viewFipeDataGridView.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.viewFipeDataGridView_CellDoubleClick);
             // 
@@ -317,12 +317,11 @@
             // 
             // FrmFipe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(999, 542);
+            this.ClientSize = new System.Drawing.Size(749, 440);
             this.Controls.Add(this.viewFipeDataGridView);
             this.Controls.Add(this.viewFipeBindingNavigator);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmFipe";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmFipe";

@@ -103,7 +103,7 @@ namespace appSeguradora
                 {
                     int idModelo = Convert.ToInt32(viewModeloDataGridView.CurrentRow.Cells["ModeloID"].Value);
 
-                    string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\guilh\\Desktop\\appSeguradora - versão 1.03\\appSeguradora\\seguradora.mdf;Integrated Security=True";
+                    string connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=D:\\Pastas - Area de trabalho\\Utfpr\\5 - Matérias\\4º - Quarto Período\\5 - Programação Para Desktop\\appSeguradora\\seguradora.mdf;Integrated Security=True";
                     using (SqlConnection connection = new SqlConnection(connectionString))
                     {
                         connection.Open();
